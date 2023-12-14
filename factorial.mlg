@@ -1,0 +1,11 @@
+set 1000 1
+set 1001 1
+set 1003 0
+set 1004 -1
+input 1002
+jumpIfCompare 1002 1001 34
+jumpIfCompare 1002 1003 34
+multiply 1000 1002 1000
+add 1002 1004 1002
+jumpIfCompare 1000 1000 14
+output 1000 exit

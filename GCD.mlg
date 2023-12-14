@@ -1,0 +1,10 @@
+input 1000
+input 1001
+set 1002 0
+jumpIfCompare 1000 1001 27
+jumpIfGreater 1001 1000 21
+substract 1000 1001 1000
+jump 7
+substract 1001 1000 1001
+jump 7
+output 1000 exit
